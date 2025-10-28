@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+def index(request):
+    return render(request, 'scjourney/index.html')
 
-
+def aboutMe(request):
+    return render(request, 'scjourney/aboutMe.html')
